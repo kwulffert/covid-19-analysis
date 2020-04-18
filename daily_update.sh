@@ -31,6 +31,7 @@ jupyter nbconvert covid19_italy.ipynb --no-input --no-prompt
 # Copy updated notebook as html to the webpage folder
 cp covid-19_analysis.html ${WEBPAGE_FOLDER}/
 cp covid19_italy.html ${WEBPAGE_FOLDER}/
+cp Italy_reg.png ${WEBPAGE_FOLDER}/images/
 
 # Create branch and commit changes to master
 git add covid-19_analysis.ipynb covid19_italy.ipynb
